@@ -5,10 +5,10 @@
 @import"./header.css";
 @import"./buttons.css";
 @import"./main.css";
-@import"./redes.css"
+@import"./footer.css";
 
 /* Reset CSS*/
-*{
+* {
   margin: 0;
   padding: 0;
   border: 0;
@@ -17,4 +17,24 @@
   font-weight: 300;
   vertical-align: baseline;
   text-decoration: none;
+  list-style: none;
+}
+body{
+  background-image: url("../assets/img/freepik__upload__18024.jpeg");
+  background-size: 1024px;
+  margin-top: 10px;
+  background-repeat: no-repeat;
+  background-position: left; 
+
+}
+.container{
+  width: 1024px;
+  margin: 200px;
+  display: flex;
+  flex-direction:row;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
 }
