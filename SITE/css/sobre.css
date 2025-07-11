@@ -1,8 +1,8 @@
-.sobre-web-design{
+div{
   justify-content:space-between;
   align-items: center;
 }
-.sobre-web-design article h1{
+h1{
   width:800px;
   font-size: 70px;
   line-height: 90%;
@@ -10,7 +10,7 @@
   padding-bottom: 15px ;
   color: #240755;
 }
-.sobre-web-design article h2{
+h2{
   padding-bottom: 15px ;
   font-size: 30px;
   text-transform: uppercase;
@@ -19,17 +19,8 @@
   color: #6d4f8b;
 }
 
-.sobre-web-design article p{
+p{
   color: #240755;
   padding-bottom: 18px;
  
-}
-figcaption img{
-  width: 900px;
-}
-article ul li{
-  color: #6d4f8b;
-  list-style: none;
-  padding-bottom: 5px ;
-  
 }
