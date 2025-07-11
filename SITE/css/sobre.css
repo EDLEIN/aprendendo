@@ -1,26 +1,41 @@
 div{
+  display:flexbox;
   justify-content:space-between;
-  align-items: center;
+  text-align: center;
 }
 h1{
-  width:800px;
-  font-size: 70px;
-  line-height: 90%;
+  width:100%;
+  font-size: 40px;
+  line-height: 50%;
   font-weight: 400;
-  padding-bottom: 15px ;
+  text-transform: uppercase;
+  padding-bottom: 15px;
   color: #240755;
 }
-h2{
+p{
   padding-bottom: 15px ;
-  font-size: 30px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  line-height: 200%;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
   color: #6d4f8b;
 }
+table{
+  color: #6d4f8b;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+.voltar a{
+  font-weight:800;
+  text-decoration: none;
+  background-color: #6d4f8b;
+  color: #fff;
+  padding: 10px 20px;
+  top: 50px;
+  position:relative;
+  cursor: pointer;
+}
 
-p{
-  color: #240755;
-  padding-bottom: 18px;
- 
+.voltar a:hover{
+  background-color: #0f011c;
 }
